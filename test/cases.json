@@ -1,0 +1,38 @@
+{
+ "tests": [
+  {
+   "in": {
+    "years": 5,
+    "aSup": 40,
+    "aLab": 30,
+    "aEn": 10,
+    "mig": 120,
+    "bSup": 10,
+    "bLab": 5,
+    "bEn": 5
+   },
+   "v": {
+    "breakeven": 2,
+    "diff": 180
+   }
+  },
+  {
+   "in": {
+    "years": 3,
+    "aSup": 10,
+    "bSup": 20,
+    "mig": 5
+   },
+   "v": {
+    "breakeven": null
+   }
+  },
+  {
+   "in": {
+    "years": 0,
+    "aSup": 10
+   },
+   "err": "years"
+  }
+ ]
+}

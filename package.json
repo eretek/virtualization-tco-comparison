@@ -1,0 +1,15 @@
+{
+  "name": "virtualization-tco-comparison",
+  "version": "1.1.3",
+  "private": true,
+  "description": "Compare licence, hardware, support, labour, energy and migration costs of current and new infrastructure year by year; break-even time and total difference.",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://sistem.eretek.com/en/tools/virtualization-tco-comparison",
+  "scripts": {
+    "start": "node scripts/serve.js",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
